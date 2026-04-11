@@ -1,0 +1,109 @@
+<!DOCTYPE html><html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Keunikan Website</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      min-height: 100vh;
+      background: #efc3cf;
+      font-family: Arial, Helvetica, sans-serif;
+      color: #111;
+    }
+    .header {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+      padding: 34px 46px 10px;
+    }
+    .back-btn {
+      width: 62px;
+      height: 62px;
+      border-radius: 50%;
+      background: rgba(255,255,255,0.95);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-decoration: none;
+      color: #333;
+      font-size: 46px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+      padding-bottom: 6px;
+    }
+    .title {
+      font-size: 53px;
+      font-weight: 500;
+    }
+    .highlight {
+      background: #f5df46;
+      padding: 0 12px;
+      font-style: italic;
+      font-family: Georgia, serif;
+    }
+    .content {
+      padding: 10px 70px 40px;
+    }
+    .top-row, .bottom-row {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 50px;
+      align-items: center;
+      margin-top: 20px;
+    }
+    .logos {
+      width: 80%;
+      max-width: 100%;
+      display: block;
+      margin-bottom: 18px;
+    }
+    .big-back {
+      width: 20%;
+      display: block;
+      margin: 0 auto 18px;
+    }
+    .code-img {
+      width: 50%;
+      display: block;
+      margin: 0 auto;
+      transform: translateX(180px);
+    }
+    p {
+      font-size: 20px;
+      line-height: 1.35;
+      max-width: 620px;
+    }
+  </style>
+</head>
+<body>
+  <div class="header">
+    <a href="webtugas.html" class="back-btn">‹</a>
+    <div class="title"><span class="highlight">Keunikan</span> Dari Website</div>
+  </div>  <div class="content">
+    <div class="top-row">
+      <div>
+        <img src="logoo.png" alt="Logo menu" class="logos">
+        <p>
+          Button yang digunakan dalam website ini didesain satu-persatu menggunakan aplikasi ibis paint dan canva, sehingga bukan hasil download dari browser.
+        </p>
+      </div>
+      <div>
+        <img src="backbtn.png" alt="Back button besar" class="big-back">
+        <p>
+          Pada halaman home, penerapan, kesan, dan keunikan dilengkapi “back button” yaitu tombol untuk kembali ke halaman welcome.
+        </p>
+      </div>
+    </div><div class="bottom-row">
+  <div>
+    <img src="codee.png" alt="Kode hover" class="code-img">
+  </div>
+  <div>
+    <p>
+      Button diberi efek hover, apabila kursor menyentuh button, maka button akan membesar 1.08x dari ukuran defaultnya.
+    </p>
+  </div>
+</div>
+
+  </div>
+</body>
+</html>
